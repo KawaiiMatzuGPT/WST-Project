@@ -235,3 +235,21 @@
     height: 40px;
     margin-bottom: 15px;
   }
+
+  footer {
+    background-color: #fcf7fb;
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
