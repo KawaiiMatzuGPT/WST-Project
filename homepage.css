@@ -139,6 +139,10 @@ header nav .dropdown-content a {
   display: inline-block;
   border-radius: 5px;
 }
+.service-box:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
 
 .service-boxes {
   flex: 1;
@@ -154,6 +158,11 @@ header nav .dropdown-content a {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   border-radius: 8px;
   overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: transform 0.2s ease;
+
 }
 
 .service-box img {
