@@ -15,7 +15,7 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  padding: 20px; /* For small screens */
+  padding: 20px; 
 }
 
 body::before {
