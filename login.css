@@ -36,6 +36,7 @@ body::before {
   overflow: hidden;
   padding: 30px 25px;
   text-align: center;
+  position: relative;
 }
 
 .login-header {
@@ -48,9 +49,14 @@ body::before {
   margin: -30px -25px 25px -25px;
 }
 
+.login-body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
 .login-body .input-group {
-  margin-bottom: 15px;
-  text-align: left;
+  width: 100%;
 }
 
 .login-body input[type="text"],
@@ -62,6 +68,7 @@ body::before {
   background: #f5f5f5;
   font-size: 14px;
   outline: none;
+  display: block;
 }
 
 .forgot {
@@ -76,7 +83,7 @@ body::before {
 }
 
 .login-body button {
-  margin-top: 20px;
+  margin-top: 10px;
   background-color: #4CAF50;
   color: white;
   border: none;
@@ -95,7 +102,7 @@ body::before {
 
 .signup {
   font-size: 13px;
-  margin-top: 25px;
+  margin-top: 20px;
   color: #666;
 }
 
@@ -108,6 +115,7 @@ body::before {
 
 @media screen and (max-width: 600px) {
   .login-box {
+    width: 90%;
     padding: 25px 20px;
   }
 
@@ -117,11 +125,12 @@ body::before {
 
   .login-body input[type="text"],
   .login-body input[type="password"] {
-    padding: 14px;
+    padding: 14px 18px;
+    font-size: 16px;
   }
 
   .forgot,
   .signup {
-    font-size: 14px;
+    font-size: 13px;
   }
 }
