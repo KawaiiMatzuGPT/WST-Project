@@ -139,7 +139,7 @@ header nav .dropdown-content a {
   display: inline-block;
   border-radius: 5px;
 }
-.service-box1:hover {
+.service-box:hover {
   transform: scale(1.03);
   background-color: #f0f0f0;
   cursor: pointer;
@@ -153,7 +153,7 @@ header nav .dropdown-content a {
   justify-content: center;
 }
 
-.service-box1 {
+.service-box {
   background: white;
   max-width: 280px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -166,15 +166,14 @@ header nav .dropdown-content a {
 
 }
 
-.service-box1 img {
+.service-box img {
   width: 100%;
   height: auto;
 }
 
-.service-box1 h3 {
+.service-box h3 {
   margin: 10px;
   font-size: 18px;
-  color: black;
 }
 
 .service-box1 p {
